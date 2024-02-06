@@ -1,4 +1,4 @@
-class product {
+class Product {
     constructor(name, category, startPrice, sellerName){
         this.name = name;
         this.category = category;
@@ -6,3 +6,4 @@ class product {
         this.sellerName = sellerName;
     }
 }
+module.exports = Product;
